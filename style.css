@@ -3,4 +3,44 @@ html, body {
     padding: 0;
     height: 100%;
 }
+.helloworld {
+    background-color: orange;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple ;
+    height: 30%;
+    width: 30%;
+    margin: 10%;
+    margin-left: 35%;
+}
 
+.index {
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+
+  }
+  
+  .box1 {
+    background-color: red;
+    position: relative;
+    z-index: 0;
+    left: 20px;
+    bottom: 0px;
+  }
+  
+  .box2 {
+    background-color: green;
+    position: relative;
+    bottom: 40px;
+    left: 30px;
+    bottom: 215px;
+    z-index: 1;
+  }
+  
+  .box3 {
+    background-color: blue;
+    position: relative;
+    bottom: 430px;
+    left: 40px;
+    z-index: 2;
+  }
